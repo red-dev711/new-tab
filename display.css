@@ -1,0 +1,197 @@
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  background: linear-gradient(to top, #434343, #000000);
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin-top: 30px; 
+  margin-bottom: 20px;
+  text-align: center;
+  color: red;
+  font-size: 7rem;
+  animation: background 0.4s infinite;
+}
+
+@keyframes background {
+  0% {
+    color: red;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.calendar {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.gif {
+  position: absolute;
+  bottom: 2vh;
+  left: 3vw;
+}
+
+.brunoo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.martial {
+  position: absolute;
+  left: 2vw;
+  top: 10vh;
+  width: 15vw;
+  height: 60vh;
+}
+
+.rashy {
+  position: absolute;
+  right: 2vw;
+  top: 1vh;
+  width: 18vw;
+  height: 45vh;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  background-color: rgb(246, 65, 65);
+  font-family: Helvetica;
+  font-size: 1.1rem;
+  padding-left: 3vw;
+  justify-content: center;
+  margin: 0;
+}
+
+li {
+  padding: 2vh 3vw;
+  outline: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 1.3vh 1.5vw;
+  margin: 0;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  top: 0.8vh;
+  left: 5vw;
+  background-color: white;
+  width: 5vw;
+  height: 9vh;
+}
+
+.flag{
+  position: relative;
+  margin: 0;
+  top: 6vh;
+  /* animation: move 2.5s infinite; */
+  animation: flagg 2.5s infinite;
+}
+
+@keyframes flagg {
+  0% {
+    left: 44vw;
+    right: 44vw;
+    width: 12vw;
+  }
+  50% {
+    left: 30vw;
+    right: 30vw;
+    width: 40vw;
+  }
+  100% {
+    left: 44vw;
+    right: 44vw;
+    width: 12vw;
+  }
+}
+
+.first {
+  height: 4vh;
+  margin: 0;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.second {
+  margin: 0;
+  height: 4vh;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.third {
+  margin: 0;
+  height: 4vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+@keyframes move1 {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes move2 {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes move3 {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: red;
+  }
+}
